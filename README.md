@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm CHINMAYA SUTAR</h1>
+<h1 align="center">Hi 👋, I'm Dibyaranjan Behera</h1>
 <h3 align="center">Full Stack Java Developer | React Enthusiast | Problem Solver</h3>
 
 <img align="right" width="400" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/code.gif" alt="coding">
@@ -11,9 +11,9 @@
 
 - 🔭 I'm currently building **enterprise applications with Java and React**
 - 🌱 Mastering **Spring Boot, Microservices, and Cloud Architecture**
-- 👨‍💻 All of my projects are available at [My Portfolio](https://github.com/chinu99380955899)
+- 👨‍💻 All of my projects are available at [My Portfolio](https://github.com/Dibyaranjan-Behera)
 - 💬 Ask me about **Java, Spring, React, or System Design**
-- 📫 How to reach me: **sutarchinmaya385@gmail.com**
+- 📫 How to reach me: **dibyaranjanbehera486@gmail.com**
 - 📄 Download my [Resume](your-resume-link)
 - ⚡ Fun fact: **I can debug code while sleeping!**
 
