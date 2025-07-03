@@ -1,171 +1,102 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🚀 Fullstack Java Developer Portfolio</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            line-height: 1.6;
-            color: #24292e;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h1, h2, h3 {
-            color: #0366d6;
-        }
-        h1 {
-            border-bottom: 1px solid #eaecef;
-            padding-bottom: 0.3em;
-        }
-        h2 {
-            border-bottom: 1px solid #eaecef;
-            padding-bottom: 0.3em;
-            margin-top: 24px;
-        }
-        code {
-            background-color: rgba(27, 31, 35, 0.05);
-            border-radius: 3px;
-            padding: 0.2em 0.4em;
-            font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
-        }
-        pre {
-            background-color: #f6f8fa;
-            border-radius: 3px;
-            padding: 16px;
-            overflow: auto;
-        }
-        .badge {
-            display: inline-block;
-            padding: 3px 6px;
-            margin: 2px;
-            border-radius: 3px;
-            color: white;
-            font-size: 0.85em;
-        }
-        .project-structure {
-            background-color: #f6f8fa;
-            padding: 16px;
-            border-radius: 3px;
-            font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
-            line-height: 1.45;
-        }
-    </style>
-</head>
-<body>
-    <h1>🚀 Fullstack Java Developer Portfolio</h1>
-    
-    <p>Welcome to my Fullstack Java Developer repository! This project showcases my skills in building modern, scalable web applications using Java and popular frontend technologies.</p>
-    
-    <h2>🌟 Features</h2>
-    <ul>
-        <li><strong>Backend</strong>: Spring Boot, Microservices, REST APIs</li>
-        <li><strong>Frontend</strong>: React/Thymeleaf, Bootstrap/Tailwind CSS</li>
-        <li><strong>Database</strong>: PostgreSQL/MySQL, Hibernate/JPA</li>
-        <li><strong>DevOps</strong>: Docker, Kubernetes, CI/CD Pipelines</li>
-        <li><strong>Testing</strong>: JUnit, Mockito, TestNG</li>
-    </ul>
-    
-    <h2>🛠️ Tech Stack</h2>
-    
-    <h3>Backend</h3>
-    <span class="badge" style="background-color: #ED8B00;">Java</span>
-    <span class="badge" style="background-color: #6DB33F;">Spring</span>
-    <span class="badge" style="background-color: #F2F4F9; color: black;">Spring Boot</span>
-    <span class="badge" style="background-color: #59666C;">Hibernate</span>
-    
-    <h3>Frontend</h3>
-    <span class="badge" style="background-color: #20232A;">React</span>
-    <span class="badge" style="background-color: #005F0F;">Thymeleaf</span>
-    <span class="badge" style="background-color: #563D7C;">Bootstrap</span>
-    
-    <h3>Database</h3>
-    <span class="badge" style="background-color: #316192;">PostgreSQL</span>
-    <span class="badge" style="background-color: #005C84;">MySQL</span>
-    
-    <h3>DevOps</h3>
-    <span class="badge" style="background-color: #2CA5E0;">Docker</span>
-    <span class="badge" style="background-color: #326ce5;">Kubernetes</span>
-    <span class="badge" style="background-color: #FF9900;">AWS</span>
-    
-    <h2>📂 Project Structure</h2>
-    <div class="project-structure">
-        fullstack-java/<br>
-        ├── backend/               # Spring Boot application<br>
-        │   ├── src/main/java      # Java source code<br>
-        │   ├── src/main/resources # Config files<br>
-        │   └── pom.xml           # Maven configuration<br>
-        ├── frontend/              # React/Thymeleaf UI<br>
-        │   ├── public/           # Static files<br>
-        │   ├── src/              # React components<br>
-        │   └── package.json      # NPM dependencies<br>
-        ├── docker/               # Docker configurations<br>
-        ├── kubernetes/           # K8s deployment files<br>
-        └── README.md            # This file
-    </div>
-    
-    <h2>🚀 Getting Started</h2>
-    
-    <h3>Prerequisites</h3>
-    <ul>
-        <li>Java 17+</li>
-        <li>Maven 3.8+</li>
-        <li>Node.js 16+</li>
-        <li>Docker 20.10+</li>
-    </ul>
-    
-    <h3>Installation</h3>
-    <ol>
-        <li>Clone the repo:
-            <pre><code>git clone https://github.com/yourusername/fullstack-java.git
-cd fullstack-java</code></pre>
-        </li>
-        <li>Build backend:
-            <pre><code>cd backend
-mvn clean install</code></pre>
-        </li>
-        <li>Run frontend:
-            <pre><code>cd ../frontend
-npm install
-npm start</code></pre>
-        </li>
-        <li>Run with Docker:
-            <pre><code>docker-compose up --build</code></pre>
-        </li>
-    </ol>
-    
-    <h2>🧪 Testing</h2>
-    <p>Run unit tests:</p>
-    <pre><code>mvn test</code></pre>
-    
-    <p>Run integration tests:</p>
-    <pre><code>mvn verify -Pintegration</code></pre>
-    
-    <h2>🤝 Contributing</h2>
-    <p>Pull requests are welcome! Please open an issue first to discuss what you'd like to change.</p>
-    
-    <h2>📜 License</h2>
-    <p><a href="https://choosealicense.com/licenses/mit/">MIT</a></p>
-    
-    <h2>📫 Contact</h2>
-    <p>
-        <a href="https://linkedin.com/in/yourprofile" style="text-decoration: none;">
-            <span class="badge" style="background-color: #0077B5;">LinkedIn</span>
-        </a>
-        <a href="mailto:youremail@gmail.com" style="text-decoration: none;">
-            <span class="badge" style="background-color: #D14836;">Gmail</span>
-        </a>
-    </p>
-    
-    <h2>💡 Customization Tips</h2>
-    <ol>
-        <li>Replace placeholder links (<code>yourusername</code>, <code>yourprofile</code>, <code>youremail</code>) with your actual information</li>
-        <li>Add screenshots of your projects in an <code>images/</code> folder and link them</li>
-        <li>Include badges for specific technologies you've used</li>
-        <li>Add a "Featured Projects" section highlighting your best work</li>
-        <li>Consider adding a "Certifications" section if applicable</li>
-    </ol>
-</body>
-</html>
+<h1 align="center">Hi 👋, I'm CHINMAYA SUTAR</h1>
+<h3 align="center">Full Stack Java Developer | React Enthusiast | Problem Solver</h3>
+
+<img align="right" width="400" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/code.gif" alt="coding">
+
+<p align="left"> 
+  <img src="https://komarev.com/ghpvc/?username=chinu99380955899&label=Profile%20views&color=0e75b6&style=flat" alt="chinu99380955899" /> 
+  <img src="https://img.shields.io/badge/Java-Full%20Stack-blue" alt="Java Full Stack">
+  <img src="https://img.shields.io/badge/Spring-Boot-green" alt="Spring Boot">
+</p>
+
+- 🔭 I'm currently building **enterprise applications with Java and React**
+- 🌱 Mastering **Spring Boot, Microservices, and Cloud Architecture**
+- 👨‍💻 All of my projects are available at [My Portfolio](https://github.com/chinu99380955899)
+- 💬 Ask me about **Java, Spring, React, or System Design**
+- 📫 How to reach me: **sutarchinmaya385@gmail.com**
+- 📄 Download my [Resume](your-resume-link)
+- ⚡ Fun fact: **I can debug code while sleeping!**
+
+<h2 align="left">🛠 Tech Stack</h2>
+
+<h3 align="left">Frontend</h3>
+<p align="left">
+  <a href="https://reactjs.org/" target="_blank"> 
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react"/>
+  </a>
+  <a href="https://redux.js.org" target="_blank"> 
+    <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white" alt="redux"/>
+  </a>
+  <a href="https://www.w3.org/html/" target="_blank"> 
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="html5"/>
+  </a>
+  <a href="https://www.w3schools.com/css/" target="_blank"> 
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="css3"/>
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> 
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="javascript"/>
+  </a>
+</p>
+
+<h3 align="left">Backend</h3>
+<p align="left">
+  <a href="https://spring.io/projects/spring-boot" target="_blank"> 
+    <img src="https://img.shields.io/badge/Spring_Boot-F2F4F9?style=for-the-badge&logo=spring-boot" alt="spring-boot"/>
+  </a>
+  <a href="https://nodejs.org" target="_blank"> 
+    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="nodejs"/>
+  </a>
+  <a href="https://expressjs.com" target="_blank"> 
+    <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="express"/>
+  </a>
+</p>
+
+<h3 align="left">Database</h3>
+<p align="left">
+  <a href="https://www.mongodb.com/" target="_blank"> 
+    <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="mongodb"/>
+  </a>
+  <a href="https://www.mysql.com/" target="_blank"> 
+    <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="mysql"/>
+  </a>
+</p>
+
+<h3 align="left">DevOps & Cloud</h3>
+<p align="left">
+  <a href="https://aws.amazon.com" target="_blank"> 
+    <img src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="aws"/>
+  </a>
+  <a href="https://docker.com" target="_blank"> 
+    <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" alt="docker"/>
+  </a>
+  <a href="https://git-scm.com/" target="_blank"> 
+    <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="git"/>
+  </a>
+</p>
+
+<h2 align="left">📊 GitHub Stats</h2>
+
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=chinu99380955899&show_icons=true&theme=radical" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=chinu99380955899&theme=radical" />
+</p>
+
+<p align="center">
+  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chinu99380955899&layout=compact&theme=radical" />
+</p>
+
+<h2 align="left">🤝 Connect with me</h2>
+<p align="left">
+  <a href="https://linkedin.com/in/chinmaya-sutar" target="blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin"/>
+  </a>
+  <a href="https://twitter.com/yourusername" target="blank">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="twitter"/>
+  </a>
+  <a href="https://instagram.com/chinmaya_sutar_" target="blank">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="instagram"/>
+  </a>
+  <a href="mailto:sutarchinmaya385@gmail.com" target="blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail"/>
+  </a>
+</p>
