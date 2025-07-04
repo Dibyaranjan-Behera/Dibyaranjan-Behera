@@ -77,7 +77,7 @@
 <h2 align="left">📊 GitHub Stats</h2>
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=chinu99380955899&show_icons=true&theme=radical" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=dibyaranjanbehera486@gmail.com&show_icons=true&theme=radical" />
   <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=chinu99380955899&theme=radical" />
 </p>
 
