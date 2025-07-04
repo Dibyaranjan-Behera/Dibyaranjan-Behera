@@ -60,10 +60,8 @@
 
 Here are a few cool projects I've built recently:
 
-- 🎯 **Job Portal App** – Java Spring Boot backend + React frontend with JWT auth and role-based access.
-- 📦 **Inventory Management System** – REST APIs with Spring Data JPA, integrated with PostgreSQL.
-- 📸 **Photo Gallery App** – Full MERN stack app with image uploads, user profiles, and cloud storage.
-- 📊 **Admin Dashboard** – Interactive React UI with charts and analytics, backed by a microservices API.
+- 🎯 **Chatting Application** –  Java, Spring Boot, WebSocket, STOMP, JavaScript, Bootstrap.
+- 📦 **E-commerce Shopping Cart** –  Java, Spring Boot, Thymeleaf, MySQL.
 
 👉 Check out more on [My GitHub Projects](https://github.com/Dibyaranjan-Behera?tab=repositories)
 
@@ -99,9 +97,7 @@ Here are a few cool projects I've built recently:
   <a href="https://www.linkedin.com/in/dibyaranjan-behera-22193b294" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://www.instagram.com/dibya_486/?hl=en" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
+  
   <a href="mailto:dibyaranjanbehera486@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
