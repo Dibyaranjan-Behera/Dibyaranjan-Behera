@@ -56,16 +56,40 @@
 
 ---
 
-## 📊 GitHub Stats
+## 🚀 Featured Projects
 
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=chinu99380955899&show_icons=true&theme=radical" alt="GitHub Stats" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=chinu99380955899&theme=radical" alt="GitHub Streak" />
-</p>
+Here are a few cool projects I've built recently:
 
-<p align="center">
-  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chinu99380955899&layout=compact&theme=radical" alt="Top Languages" />
-</p>
+- 🎯 **Job Portal App** – Java Spring Boot backend + React frontend with JWT auth and role-based access.
+- 📦 **Inventory Management System** – REST APIs with Spring Data JPA, integrated with PostgreSQL.
+- 📸 **Photo Gallery App** – Full MERN stack app with image uploads, user profiles, and cloud storage.
+- 📊 **Admin Dashboard** – Interactive React UI with charts and analytics, backed by a microservices API.
+
+👉 Check out more on [My GitHub Projects](https://github.com/Dibyaranjan-Behera?tab=repositories)
+
+---
+
+## 📚 Current Learning Goals
+
+- ⚙️ Mastering Kubernetes & Docker for scalable deployments
+- ☁️ Deepening AWS skills – EC2, S3, Lambda, and CloudFormation
+- 🔐 Improving system design and security practices
+- 🧩 Exploring Domain-Driven Design (DDD) patterns in Spring Boot
+
+---
+
+## 🧠 My Dev Philosophy
+
+> "Write clean code, keep it simple, and always think like the end user."
+
+- 🚀 Build for performance and scalability
+- 📦 Keep services modular and reusable
+- 💬 Collaborate, communicate, and grow as a team
+- 🧪 Test everything before it breaks
+
+---
+
+
 
 ---
 
